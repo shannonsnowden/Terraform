@@ -1,6 +1,6 @@
 # Terraform
 
-Terraform project. 
+Terraform projects. 
 
 ### 1. Deploy_ZCA
 
