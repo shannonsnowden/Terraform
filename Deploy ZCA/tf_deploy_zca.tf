@@ -123,6 +123,12 @@ resource "azurerm_virtual_machine" "ssterraformvm" {
         version   = "7.0.0"
         }
 
+    plan {
+        name       = "zerto7"
+        publisher  = "zerto"
+        product    = "zerto-vms"
+        }
+
     os_profile {
         computer_name  = "sstfvm"
         admin_username = "zerto"
